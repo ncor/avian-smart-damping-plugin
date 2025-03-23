@@ -21,7 +21,7 @@ fn setup(
     mut materials: ResMut<Assets<StandardMaterial>>,
 ) {
     commands.spawn((
-        FloatingBody::default(),
+        SmartDamping::default(),
         RigidBody::Dynamic,
         Transform::from_xyz(0.0, 2.0, 0.0),
         Collider::cuboid(1.0, 1.0, 0.1),
