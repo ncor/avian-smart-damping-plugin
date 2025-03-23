@@ -2,7 +2,7 @@ This is a plugin for [Avian](https://github.com/Jondolf/avian) and [Bevy](https:
 
 At the moment the plugin is not stable and is in the proof of concept stage and will most likely be abandoned, as I plan to create a more performant implementation with more features, such as air flows and aerodynamic body stabilization.
 
-To use the plugin, you just need to register it after the Avian plugins and add the necessary components to the bodies that will participate in the simulation.
+To use the plugin, you just need to register `SmartDampingPlugin` after the Avian plugins and add the necessary `SmartDamping` component to the bodies that will participate in the simulation:
 ```rust
 fn main() {
     App::new()
