@@ -2,6 +2,13 @@
 name = "avian_smart_damping_plugin"
 version = "0.0.1"
 edition = "2024"
+license = "MIT"
+authors = ["enoro <not.enoro@gmail.com>"]
+description = "A plugin for Avian and Bevy engines that implements a velocity damping system based on the properties of bodies and their projections."
+repository = "https://github.com/ncor/avian-smart-damping-plugin"
+readme = "README.md"
+keywords = ["gamedev", "physics", "simulation", "bevy", "avian3d"]
+categories = ["game-development", "science", "simulation"]
 
 [dependencies]
 avian3d = "0.2.1"
