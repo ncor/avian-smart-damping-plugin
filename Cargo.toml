@@ -1,0 +1,8 @@
+[package]
+name = "avian_smart_damping_plugin"
+version = "0.0.1"
+edition = "2024"
+
+[dependencies]
+avian3d = "0.2.1"
+bevy = "0.15.3"
