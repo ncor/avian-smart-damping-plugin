@@ -1,4 +1,4 @@
-This plugin implements a velocity damping system based on the spatial position, mass and linear and angular velocities of rigid bodies, using raycasting to derive the projection area and a system of linear and angular external impulses.
+This is a plugin for [Avian](https://github.com/Jondolf/avian) and [Bevy](https://github.com/bevyengine/bevy) engines that implements a velocity damping system based on the spatial position, mass and linear and angular velocities of rigid bodies, using raycasting to derive the projection area and a system of linear and angular external impulses.
 
 At the moment the plugin is not stable and is in the proof of concept stage and will most likely be abandoned, as I plan to create a more performant implementation with more features, such as air flows and aerodynamic body stabilization.
 
